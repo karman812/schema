@@ -1,0 +1,15 @@
+
+.formControl.error span{
+    color: red;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+.formControl, .formControl div, .formControl textarea{
+    width: 100%;
+}
+.formInputControl{
+    width: auto;
+}

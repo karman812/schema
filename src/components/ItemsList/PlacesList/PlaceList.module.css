@@ -1,0 +1,24 @@
+.placesRow{
+    height: 100%;
+}
+.navCol{
+    background-color: #DFF7FE;
+    padding-top: 30px
+}
+.nav_item_button{
+    width: 100%;
+}
+.buildingsRow{
+    height: 70%;
+}
+.buttonsRow{
+    height: 30%;
+}
+.buttonsCol{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+.inventoryButton{
+    margin: 5px 0px;
+}

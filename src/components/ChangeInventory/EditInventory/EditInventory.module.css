@@ -1,0 +1,16 @@
+.title{
+    font-size: 25px;
+}
+.editInventoryCol{
+    margin: 30px auto auto 80px;
+}
+.chooseTitle{
+    font-size: 18px;
+    margin: 15px auto;
+}
+.textField{
+    margin-bottom: 15px;
+}
+.updateButton{
+    margin-top: 20px!important;
+}

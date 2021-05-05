@@ -1,0 +1,21 @@
+.main{
+    margin: 15px 0px;
+    transition: 0.2s;
+    background-color: #f6f9fa;
+    font-size: 18px;
+    border: 1px solid #2bd2ff;
+}
+.main > .main > .main{
+    background-color: #61dafb;
+    display: none;
+    transition: 0.4s;
+    font-size: 18px;
+}
+.clickedPlace{
+    display: block;
+    padding: 20px;
+    background-color: #80e4ff;
+    transition: 0.4s;
+    padding: 20px 0px;
+    font-size: 18px;
+}

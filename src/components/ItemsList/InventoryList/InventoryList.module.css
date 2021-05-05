@@ -1,0 +1,24 @@
+.inventoryPlace{
+    font-size: 25px;
+    margin: 10px;
+}
+.inventoryName{
+    margin: 10px;
+    font-size: 18px;
+}
+.inventoryCount{
+    margin: 10px;
+    font-size: 18px;
+}
+.inventoryInfoCol{
+    margin-top: 15px;
+    padding: 5px 0px;
+}
+.inventoryCol{
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px auto auto 80px;
+}
+.inventoryInfoCol{
+    text-align: start;
+}

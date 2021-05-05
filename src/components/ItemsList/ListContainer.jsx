@@ -172,18 +172,18 @@ class ListContainer extends React.Component {
         <BrowserRouter basename={window.location.pathname || ''}>
             <Row className={styles.placesRow}>
                 <PlaceList getBuildingsHtml={this.getBuildingsHtml} places={this.props.state.placesData}/>
-                <Route path='/inventory' render={() => <InventoryList rerenderComponent={this.rerenderComponent}
+                <Route exact path='/inventory' render={() => <InventoryList rerenderComponent={this.rerenderComponent}
                                                                       getChoosingInventoryItem={this.getChoosingInventoryItem}
                                                                       viewingPlaceId={this.props.viewingPlaceId}
                                                                       viewingPlaceName={this.props.viewingPlaceName}/>}/>
-                <Route path='/edit' render={() => <EditInventory rerenderComponent={this.rerenderComponent}
+                <Route exact path='/edit' render={() => <EditInventory rerenderComponent={this.rerenderComponent}
                                                                  getUpdateInventoryList={this.getUpdateInventoryList}
                                                                  editInventory={this.props.editInventoryThunkCreator}/>}/>
-                <Route path='/delete'
+                <Route exact path='/delete'
                        render={() => <DeleteInventory deleteInventory={this.props.deleteInventoryThunkCreator}
                                                       rerenderComponent={this.rerenderComponent}
                                                       getUpdateInventoryList={this.getUpdateInventoryList}/>}/>
-                <Route path='/add' render={() => <AddInventory addNewInventory={this.props.addInventoryThunkCreator}
+                <Route exact path='/add' render={() => <AddInventory addNewInventory={this.props.addInventoryThunkCreator}
                                                                rerenderComponent={this.rerenderComponent}
                                                                getAddInventoryList={this.getAddInventoryList}/>}/>
             </Row>
